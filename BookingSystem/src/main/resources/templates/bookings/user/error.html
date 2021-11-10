@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link
+            href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.1/css/bootstrap.min.css"
+            rel="stylesheet" media="screen" />
+
+    <style>
+        .error {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .error-code {
+            bottom: 60%;
+            color: #2d353c;
+            font-size: 96px;
+            line-height: 100px;
+        }
+
+        .error-desc {
+            font-size: 12px;
+            color: #647788;
+        }
+
+        .m-b-10 {
+            margin-bottom: 10px !important;
+        }
+
+        .m-b-20 {
+            margin-bottom: 20px !important;
+        }
+
+        .m-t-20 {
+            margin-top: 20px !important;
+        }
+    </style>
+</head>
+<body>
+<div class="error">
+    <div class="error-code m-b-10 m-t-20">
+        404 <i class="fa fa-warning"></i>
+    </div>
+    <h3 class="font-bold">Vi kunne ikke finne siden..</h3>
+
+    <div class="error-desc">
+        Beklager, men siden du leter etter, ble ikke funnet eller gjør
+        eksisterer ikke. <br /> Prøv å oppdatere siden, eller klikk på knappen nedenfor
+        å gå tilbake til hjemmesiden.
+        <div>
+            <br />
+            <a href="/" class="btn btn-primary"><span
+                    class="glyphicon glyphicon-home"></span> Returner til hjemsiden</a> <br />
+            <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
